@@ -4,3 +4,49 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+JandalError	jemdoc.py	/^class JandalError(Exception):$/;"	c
+NoEqSupport	jemdoc.py	/^class NoEqSupport(Exception):$/;"	c
+StringIO	jemdoc.py	/^import StringIO$/;"	i
+__init__	jemdoc.py	/^  def __init__(self, infile, outfile=None, conf=None, inname=None, eqs=True,$/;"	m	class:controlstruct
+allreplace	jemdoc.py	/^def allreplace(b):$/;"	f
+br	jemdoc.py	/^def br(b, f, tableblock=False):$/;"	f
+codeblock	jemdoc.py	/^def codeblock(f, g):$/;"	f
+colonlist	jemdoc.py	/^def colonlist(f):$/;"	f
+controlstruct	jemdoc.py	/^class controlstruct(object):$/;"	c
+dashlist	jemdoc.py	/^def dashlist(f, ordered=False):$/;"	f
+doincludes	jemdoc.py	/^def doincludes(f, l):$/;"	f
+geneq	jemdoc.py	/^def geneq(f, eq, dpi, wl, outname):$/;"	f
+gethl	jemdoc.py	/^def gethl(lang):$/;"	f
+hb	jemdoc.py	/^def hb(f, tag, content1, content2=None):$/;"	f
+info	jemdoc.py	/^def info():$/;"	f
+insertmenuitems	jemdoc.py	/^def insertmenuitems(f, mname, current, prefix):$/;"	f
+inserttitle	jemdoc.py	/^def inserttitle(f, t):$/;"	f
+language	jemdoc.py	/^def language(f, l, hl):$/;"	f
+main	jemdoc.py	/^def main():$/;"	f
+nextfile	jemdoc.py	/^  def nextfile(self):$/;"	m	class:controlstruct
+nl	jemdoc.py	/^def nl(f, withcount=False, codemode=False):$/;"	f
+np	jemdoc.py	/^def np(f, withcount=False, eatblanks=True):$/;"	f
+os	jemdoc.py	/^import os$/;"	i
+out	jemdoc.py	/^def out(f, s):$/;"	f
+parseconf	jemdoc.py	/^def parseconf(cns):$/;"	f
+pc	jemdoc.py	/^def pc(f, ditchcomments=True):$/;"	f
+prependnbsps	jemdoc.py	/^def prependnbsps(l):$/;"	f
+procfile	jemdoc.py	/^def procfile(f):$/;"	f
+pushfile	jemdoc.py	/^  def pushfile(self, newfile):$/;"	m	class:controlstruct
+putbsbs	jemdoc.py	/^def putbsbs(l):$/;"	f
+pyint	jemdoc.py	/^def pyint(f, l):$/;"	f
+quote	jemdoc.py	/^def quote(s):$/;"	f
+raisejandal	jemdoc.py	/^def raisejandal(msg, line=0):$/;"	f
+re	jemdoc.py	/^import re$/;"	i
+readnoncomment	jemdoc.py	/^def readnoncomment(f):$/;"	f
+replaceequations	jemdoc.py	/^def replaceequations(b, f):$/;"	f
+replaceimages	jemdoc.py	/^def replaceimages(b):$/;"	f
+replacelinks	jemdoc.py	/^def replacelinks(b):$/;"	f
+replacepercents	jemdoc.py	/^def replacepercents(b):$/;"	f
+replacequoted	jemdoc.py	/^def replacequoted(b):$/;"	f
+showhelp	jemdoc.py	/^def showhelp():$/;"	f
+standardconf	jemdoc.py	/^def standardconf():$/;"	f
+sys	jemdoc.py	/^import sys$/;"	i
+tempfile	jemdoc.py	/^import tempfile$/;"	i
+testeqsupport	jemdoc.py	/^def testeqsupport():$/;"	f
+time	jemdoc.py	/^import time$/;"	i
